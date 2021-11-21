@@ -46,12 +46,15 @@ a:hover, a:focus {
 a:active{
     
 }
-
+.visible{
+    visibility: hidden;
+}
 a.linkedin{
     color: #0976b4;
 }
 a.linkedin:hover, a.linkedin:focus{
     color: #086498;
+    visibility: visible;
 }
 
 a.contact{
